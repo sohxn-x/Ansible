@@ -12,7 +12,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'master', url:https://github.com/sohxn-x/Ansible.git'
+                git branch: 'master', url: 'https://github.com/sohxn-x/Ansible.git'
             }
         }
 
